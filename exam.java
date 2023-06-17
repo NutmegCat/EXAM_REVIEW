@@ -48,7 +48,5 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println("mn: " + m*n);
         System.out.println(m + n + "m + n");
         System.out.println(m + n + (m + n));
-
-
     }
 }
