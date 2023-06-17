@@ -83,6 +83,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println("The value of the float type scientificNotation is: " + scientificNotation);
         System.out.println("The value of the char type z is: " + z);
     }
+
     public static void assigningValuesToVariables() {
         // Here are the different ways to assign values to variables.
 
@@ -97,6 +98,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println("The value of the variable x is: " + x);
         System.out.println("The value of the variable y is: " + y);
     }
+    
     public static void stringType() {
         //* A string type holds a sentence
         //! STRINGS ARE IMMUTABLE (they can't be changed after declaration)
