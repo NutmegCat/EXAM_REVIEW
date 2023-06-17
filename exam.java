@@ -6,6 +6,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         advice();
         escapeCharacters();
         integerTypes();
+        assigningValuesToVariables();
     }
 
     public static void firstProgram() {
@@ -80,5 +81,22 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println("The value of the float type f is: " + f);
         System.out.println("The value of the float type scientificNotation is: " + scientificNotation);
         System.out.println("The value of the char type z is: " + z);
+    }
+    public static void assigningValuesToVariables() {
+        // Here are the different ways to assign values to variables.
+
+        int i = 10;
+        double x = 10.0, y = 56.42; // The values of the double type will be stored into the assigned variables (x and y).
+
+        System.out.println("\n---Assigning values to variables---");
+
+        System.out.println("The value of the variable i is: " + i);
+        System.out.println("++++++++++++++++");
+        System.out.println("--> The value x and y are combined in a single double call");
+        System.out.println("The value of the variable x is: " + x);
+        System.out.println("The value of the variable y is: " + y);
+    }
+    public static void stringType() {
+        
     }
 }
