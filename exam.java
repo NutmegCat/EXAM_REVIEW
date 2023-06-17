@@ -64,10 +64,13 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
          ? The char type is a 16-bit character, this cannot hold numbers. 
 
          * Floating point numbers can be in scientific notation
+         
+         ? The largest value of a float type is 3.4028235e+38
+         ? The largest value of a double type is 1.7976931348623157e+308
          */
 
-        double e = 3.14159265358979;
-        float f = -6.213f;
+        double e = 1.7976931348623157E308;
+        float f = 3.4028235e38f;
         float scientificNotation = 6e6f;
         char z = 'z'; // The char type must have single quotes.
 
