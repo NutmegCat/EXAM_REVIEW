@@ -1,7 +1,5 @@
 /* This is an exam review for ICS3U1 */
 
-import javax.print.attribute.standard.Sides;
-
 class exam{ // All Java programs are contained in a class. The name *exam* is the name of the class.
     public static void main(String[] args) {
         javaMath();
@@ -38,8 +36,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
     public static void printing() {
         System.out.println("\n---Printing---");
         int m = 3, n = 4;
-        System.out.println("m is 3 and n is 4.");
-        System.out.println(); 
+        System.out.println("m is 3 and n is 4."); 
         System.out.println("m: " + m);
         System.out.println(m + n);
         System.out.println("m" + "n");
