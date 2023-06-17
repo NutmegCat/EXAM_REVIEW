@@ -5,6 +5,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         javaMath();
         printing();
         incrementAndDecrement();
+        arithmeticAndCharacters();
     }
 
     public static void javaMath() {
@@ -64,5 +65,13 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println(n);
         System.out.println(n++);
         System.out.println(n);
+    }
+
+    public static void arithmeticAndCharacters() {
+        System.out.println("\n---Arithmetic and Characters---");
+        char c = 'A';
+        System.out.println(c);
+        c++; // increment
+        System.out.println(c);
     }
 }
