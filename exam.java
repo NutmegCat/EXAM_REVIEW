@@ -4,6 +4,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
     public static void main(String[] args) {
         javaMath();
         printing();
+        incrementAndDecrement();
     }
 
     public static void javaMath() {
@@ -45,5 +46,23 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println("mn: " + m*n);
         System.out.println(m + n + "m + n");
         System.out.println(m + n + (m + n));
+    }
+
+    public static void incrementAndDecrement() {
+        /*
+         * n ++ and ++n are different
+         * If a variable has a prefix operator, the variable is incremented or decremented first and this new value is used as the value of the expression.
+         ? Example: if n is 1 and we did ++n, then the value of n would be 2.
+         * If a variable has a postfix operator, the variable is incremented or decremented after the old value has been used as the value of the expression.
+         ? Example: if n is 1 and we did n++, then the value of n would be 1, but it would print out 2
+         */
+
+        System.out.println("\n---Increment and Decrement---");
+        
+        byte n = 1;
+        System.out.println(++n);
+        System.out.println(n);
+        System.out.println(n++);
+        System.out.println(n);
     }
 }
