@@ -1,8 +1,11 @@
 /* This is an exam review for ICS3U1 */
 
+import javax.print.attribute.standard.Sides;
+
 class exam{ // All Java programs are contained in a class. The name *exam* is the name of the class.
     public static void main(String[] args) {
         javaMath();
+        printing();
     }
 
     public static void javaMath() {
@@ -19,7 +22,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
          ? --> 10
          */
 
-        System.out.println("---Java Math ---");
+        System.out.println("---Java Math---");
         System.out.println("\nAn example of java math is:");
         System.out.println("4 + 3 * (5 - 6 / 2)");
         System.out.println(" --> 4 + 3 * (5 - 3)");
@@ -30,5 +33,22 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         int equation = 4 + 3 * (5 - 6 / 2);
         System.out.println("\nAssigned \"int equation\" as \"4 + 3 * (5 - 6 / 2)\".");
         System.out.println("The answer to \"4 + 3 * (5 - 6 / 2)\" is : " + equation);
+    }
+
+    public static void printing() {
+        System.out.println("\n---Printing---");
+        int m = 3, n = 4;
+        System.out.println("m is 3 and n is 4.");
+        System.out.println(); 
+        System.out.println("m: " + m);
+        System.out.println(m + n);
+        System.out.println("m" + "n");
+        System.out.println("m + n = " + m + n);
+        System.out.println("m + n = " + (m + n));
+        System.out.println("mn: " + m*n);
+        System.out.println(m + n + "m + n");
+        System.out.println(m + n + (m + n));
+
+
     }
 }
