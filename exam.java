@@ -6,6 +6,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         printing();
         incrementAndDecrement();
         arithmeticAndCharacters();
+        mathMethods();
     }
 
     public static void javaMath() {
@@ -73,5 +74,81 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         System.out.println(c);
         c++; // increment
         System.out.println(c);
+    }
+
+    public static void mathMethods() {
+        /*
+         * There are 17 math methods in java. They are:
+         ? Math.abs(), Math.sqrt(), Math.pow(), Math.max(), Math.min(), Math.ceil(), Math.floor(), Math.random(), Math.sin(), Math.cos(), 
+         ? Math.tan(), Math.asin(), Math.acos(), Math.atan(), Math.exp(), and Math.log().
+
+         * In examples below
+         */
+
+        System.out.println("\n---Math Methods---"); 
+
+        // Math.abs()
+        double x = Math.abs(-10);
+        System.out.println("The absolute value of -10 is: " + x);
+
+        // Math.sqrt()
+        double y = Math.sqrt(16);
+        System.out.println("The square root of 16 is :" + y);
+
+        // Math.pow()
+        double z = Math.pow(2, 3);
+        System.out.println("The power of 2 to the power of 3 is: " + z);
+
+        // Math.max()
+        double max = Math.max(10, 20);
+        System.out.println("The maximum of 10 and 20 is: " + max);
+
+        // Math.min()
+        double min = Math.min(10, 20);
+        System.out.println("The minimum of 10 and 20 is: " + min);
+
+        // Math.ceil()
+        double ceil = Math.ceil(10.5);
+        System.out.println("The ceiling of 10.5 is: " + ceil);
+
+        // Math.floor()
+        double floor = Math.floor(10.5);
+        System.out.println("The floor of 10.5 is: " + floor);
+
+        // Math.random()
+        double random = Math.random();
+        System.out.println("The random number is: " + random);
+
+        // Math.sin()
+        double sin = Math.sin(Math.PI / 4);
+        System.out.println("The sine of the angle pi/4 is: " + sin);
+
+        // Math.cos()
+        double cos = Math.cos(Math.PI / 4);
+        System.out.println("The cosine of the angle pi/4 is: " + cos);
+
+        // Math.tan()
+        double tan = Math.tan(Math.PI / 4);
+        System.out.println("The tangent of the angle pi/4 is: " + tan);
+
+        // Math.asin()
+        double asin = Math.asin(1);
+        System.out.println("The arcsine of 1 is: " + asin);
+
+        // Math.acos()
+        double acos = Math.acos(-1);
+        System.out.println("The arccosine of -1 is: " + acos);
+        
+        // Math.atan()
+        double atan = Math.atan(10);
+        System.out.println("The arctangent of 10 is: " + atan);
+
+        // Math.exp()
+        double exp = Math.exp(10);
+        System.out.println("The exponential of 10 is: " + exp);
+
+        // Math.log()
+        double log = Math.log(10);
+        System.out.println("The natural logarithm of 10 is: " + log);
     }
 }
