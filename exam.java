@@ -5,6 +5,7 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         booleanTF();
         comparisonOperators();
         testForBooleansAndComparisonOperators();
+        compareStrings();
     }
 
     public static void booleanTF() {
@@ -40,5 +41,31 @@ class exam{ // All Java programs are contained in a class. The name *exam* is th
         maybe = -17 % 4 == 1;
         System.out.println("perhaps: " + perhaps);
         System.out.println("maybe: " + maybe);
+    }
+
+    public static void compareStrings() {
+        /*
+         * We have two ways to compare strings. 
+         ? First, we can use "equals" 
+         ? Second, we can use "compareTo".
+         */
+        
+        System.out.println("\n---Compare Strings---");
+
+        //! equals
+        System.out.println("--> Equals");
+        String s = "Same";
+        boolean x1 = s.equals("Same"); // true
+        boolean y1 = s.equals("same"); // false because "s" is not upper case
+        boolean z1 = s.equals("Same "); // false because there's a blank space
+
+        System.out.println("x is " + x1 + " and y is " + y1 + " and z is " + z1);
+
+        //! compareTo
+        System.out.println("--> Compare To");
+        String cab = "cab";
+        boolean x2 = "car".compareTo(cab) < 0;
+        boolean y2 = "Cab".compareTo(cab) < 0;
+        System.out.println("x is " + x2 + " and y is " + y2);
     }
 }
