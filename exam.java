@@ -20,4 +20,17 @@ class exam { // All Java programs are contained in a class. The name *exam* is t
         String[] cars = {"Volvo", "BMW", "Mercedes", "Audi"};
         System.out.println(cars[0] + " " + cars[1] + " " + cars[2] + " " + cars[3]);
     }
+    
+    public static void multiArray() {
+        int [] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+        System.out.println(numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7] + numbers[8] + numbers[9] + numbers[10] + numbers[11]);
+        int arrayAddition = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7] + numbers[8] + numbers[9] + numbers[10] + numbers[11];
+        int addition = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12;
+        
+        if (arrayAddition == addition) {
+            System.out.println("Numbers are equal");
+        } else {
+            System.out.println("Numbers are not equal");
+        }
+    }
 }
