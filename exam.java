@@ -4,6 +4,7 @@ class exam { // All Java programs are contained in a class. The name *exam* is t
     public static void main(String[] args) {
         howToArray();
         arrayExample();
+        multiArray();
     }
 
     public static void howToArray() {
