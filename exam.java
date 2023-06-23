@@ -2,6 +2,22 @@
 
 class exam { // All Java programs are contained in a class. The name *exam* is the name of the class.
     public static void main(String[] args) {
-        
+        howToArray();
+        arrayExample();
+    }
+
+    public static void howToArray() {
+        double[] price = new double[5];
+        price[0] = 1;
+        price[1] = 2;
+        price[2] = 3;
+        price[3] = 4;
+        price[4] = 5;
+        System.out.println(price[0] + " " + price[1] + " " + price[2] + " " + price[3] + " " + price[4]);
+    }
+
+    public static void arrayExample() {
+        String[] cars = {"Volvo", "BMW", "Mercedes", "Audi"};
+        System.out.println(cars[0] + " " + cars[1] + " " + cars[2] + " " + cars[3]);
     }
 }
